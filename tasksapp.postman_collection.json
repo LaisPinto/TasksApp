@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "b3141c04-41e8-4eac-8149-f45105ec9d7a",
+		"name": "tasksapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23505305"
+	},
+	"item": [
+		{
+			"name": "https://tech-talent.hasura.app/api/rest/projects/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-hasura-access-key",
+						"value": "CQOsnv00PT6e7E8UY06ti0tmFgs4GGT7DZrnZvJqS649gBVFUSH1dmiRpmIJdsd4",
+						"type": "text"
+					},
+					{
+						"key": "x-hasura-role",
+						"value": "user",
+						"type": "text"
+					},
+					{
+						"key": "x-hasura-user-id",
+						"value": "lais-pinto-24",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": "https://tech-talent.hasura.app/api/rest/projects/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://tech-talent.hasura.app/api/rest/projects/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-hasura-access-key",
+						"value": "CQOsnv00PT6e7E8UY06ti0tmFgs4GGT7DZrnZvJqS649gBVFUSH1dmiRpmIJdsd4",
+						"type": "text"
+					},
+					{
+						"key": "x-hasura-role",
+						"value": "user",
+						"type": "text"
+					},
+					{
+						"key": "x-hasura-user-id",
+						"value": "lais-pinto-24",
+						"type": "text"
+					}
+				],
+				"url": "https://tech-talent.hasura.app/api/rest/projects/"
+			},
+			"response": []
+		}
+	]
+}
